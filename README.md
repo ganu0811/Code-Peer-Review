@@ -1,6 +1,6 @@
 # Code-Peer-Review
 
-n automated code review system built using LangGraph and LangChain that generates, reviews, and improves Python code using AI agents. This project demonstrates the power of agentic AI workflows for code quality assurance and documentation generation.
+An automated code review system built using LangGraph and LangChain that generates, reviews, and improves Python code using AI agents. This project demonstrates the power of agentic AI workflows for code quality assurance and documentation generation.
 
 ## 🌟 Features
 
