@@ -60,12 +60,3 @@ Workflow Nodes
 3. reviews: Validates code quality (error handling, best practices)
 4. generate_docstring: Creates comprehensive documentation
 
-Graph Flow
-
-graph TD
-    A[START] --> B[Generate Code]
-    B --> C[Review Code]
-    C --> D{Quality Check}
-    D -->|Needs Improvement| B
-    D -->|Pass| E[Generate Docstring]
-    E --> F[END]
