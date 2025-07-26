@@ -45,7 +45,7 @@ The system uses a state-based graph architecture with the following components:
 
 State Schema
 
-'''python'''
+'''python
 from typing import TypedDict
 class State(TypedDict):
     topic: str        # Input topic for code generation
