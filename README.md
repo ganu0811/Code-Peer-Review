@@ -44,14 +44,14 @@ pip install langchain-groq langgraph python-dotenv typing-extensions ipython
 The system uses a state-based graph architecture with the following components:
 
 State Schema
-
-'''python
+```python
 from typing import TypedDict
+
 class State(TypedDict):
-    topic: str        # Input topic for code generation
-    base_code: str    # Generated code
-    review: str       # Review feedback
-    docstring: str    # Generated documentation
+    topic: str  # Input topic for code generation
+    base_code: str  # Generated code
+    review: str  # Review feedback
+    docstring: str  # Generated documentation
 
 Workflow Nodes
 
